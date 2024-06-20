@@ -4,6 +4,8 @@ from .auth import auth
 from .bookmarks import bookmarks
 from .database import db
 from flask_jwt_extended import JWTManager
+from .logger import LOGGING
+from logging.config import dictConfig
 
 
 def create_app(test_config=None):
@@ -26,5 +28,6 @@ def create_app(test_config=None):
     db.init_app(app)
     app.register_blueprint(auth)
     app.register_blueprint(bookmarks)
+    dictConfig(LOGGING)
 
     return app

@@ -1,0 +1,268 @@
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 525-046-282
+127.0.0.1 - - [19/Jun/2024 15:48:06] "[32mPOST /api/v1/bookmarks HTTP/1.1[0m" 308 -
+127.0.0.1 - - [19/Jun/2024 15:48:06] "[31m[1mPOST /api/v1/bookmarks/ HTTP/1.1[0m" 422 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 525-046-282
+127.0.0.1 - - [19/Jun/2024 15:48:46] "[32mPOST /api/v1/bookmarks HTTP/1.1[0m" 308 -
+127.0.0.1 - - [19/Jun/2024 15:48:46] "[31m[1mPOST /api/v1/bookmarks/ HTTP/1.1[0m" 422 -
+127.0.0.1 - - [19/Jun/2024 15:48:58] "[31m[1mPOST /api/v1/bookmarks/ HTTP/1.1[0m" 422 -
+ * Detected change in 'C:\\Users\\user\\Desktop\\Test\\flaskProjectWIthYouTube\\src\\bookmarks.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 525-046-282
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 525-046-282
+127.0.0.1 - - [19/Jun/2024 15:49:40] "[31m[1mPOST /api/v1/bookmarks/ HTTP/1.1[0m" 422 -
+ * Detected change in 'C:\\Users\\user\\Desktop\\Test\\flaskProjectWIthYouTube\\src\\bookmarks.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 525-046-282
+127.0.0.1 - - [19/Jun/2024 15:51:43] "[31m[1mGET /api/v1/bookmarks/ HTTP/1.1[0m" 422 -
+127.0.0.1 - - [19/Jun/2024 15:51:45] "[32mGET /api/v1/bookmarks HTTP/1.1[0m" 308 -
+127.0.0.1 - - [19/Jun/2024 15:51:45] "[31m[1mGET /api/v1/bookmarks/ HTTP/1.1[0m" 422 -
+127.0.0.1 - - [19/Jun/2024 15:51:58] "POST /api/v1/auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [19/Jun/2024 15:52:11] "[32mGET /api/v1/bookmarks HTTP/1.1[0m" 308 -
+127.0.0.1 - - [19/Jun/2024 15:52:11] "[35m[1mGET /api/v1/bookmarks/ HTTP/1.1[0m" 500 -
+ * Detected change in 'C:\\Users\\user\\Desktop\\Test\\flaskProjectWIthYouTube\\src\\database.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 525-046-282
+127.0.0.1 - - [19/Jun/2024 15:53:08] "[32mGET /api/v1/bookmarks HTTP/1.1[0m" 308 -
+127.0.0.1 - - [19/Jun/2024 15:53:08] "[35m[1mGET /api/v1/bookmarks/ HTTP/1.1[0m" 500 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 525-046-282
+127.0.0.1 - - [19/Jun/2024 15:57:33] "[32mGET /api/v1/bookmarks HTTP/1.1[0m" 308 -
+127.0.0.1 - - [19/Jun/2024 15:57:33] "[35m[1mGET /api/v1/bookmarks/ HTTP/1.1[0m" 500 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 525-046-282
+127.0.0.1 - - [19/Jun/2024 15:58:38] "[32mGET /api/v1/bookmarks HTTP/1.1[0m" 308 -
+127.0.0.1 - - [19/Jun/2024 15:58:38] "[35m[1mGET /api/v1/bookmarks/ HTTP/1.1[0m" 500 -
+ * Detected change in 'C:\\Users\\user\\Desktop\\Test\\flaskProjectWIthYouTube\\src\\database.py', reloading
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 525-046-282
+127.0.0.1 - - [19/Jun/2024 16:07:10] "[32mGET /api/v1/bookmarks HTTP/1.1[0m" 308 -
+127.0.0.1 - - [19/Jun/2024 16:07:10] "[31m[1mGET /api/v1/bookmarks/ HTTP/1.1[0m" 401 -
+127.0.0.1 - - [19/Jun/2024 16:07:19] "POST /api/v1/auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [19/Jun/2024 16:07:34] "[32mGET /api/v1/bookmarks HTTP/1.1[0m" 308 -
+127.0.0.1 - - [19/Jun/2024 16:07:34] "[35m[1mGET /api/v1/bookmarks/ HTTP/1.1[0m" 500 -
+ * Detected change in 'C:\\Users\\user\\Desktop\\Test\\flaskProjectWIthYouTube\\src\\bookmarks.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 525-046-282
+ * Detected change in 'C:\\Users\\user\\Desktop\\Test\\flaskProjectWIthYouTube\\src\\bookmarks.py', reloading
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 525-046-282
+127.0.0.1 - - [19/Jun/2024 16:31:16] "[32mGET /api/v1/bookmarks HTTP/1.1[0m" 308 -
+127.0.0.1 - - [19/Jun/2024 16:31:16] "[31m[1mGET /api/v1/bookmarks/ HTTP/1.1[0m" 401 -
+127.0.0.1 - - [19/Jun/2024 16:31:22] "POST /api/v1/auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [19/Jun/2024 16:31:36] "[32mGET /api/v1/bookmarks HTTP/1.1[0m" 308 -
+127.0.0.1 - - [19/Jun/2024 16:31:36] "GET /api/v1/bookmarks/ HTTP/1.1" 200 -
+127.0.0.1 - - [19/Jun/2024 16:31:43] "[32mGET /api/v1/bookmarks HTTP/1.1[0m" 308 -
+127.0.0.1 - - [19/Jun/2024 16:31:43] "GET /api/v1/bookmarks/ HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\user\\Desktop\\Test\\flaskProjectWIthYouTube\\src\\bookmarks.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 525-046-282
+127.0.0.1 - - [19/Jun/2024 16:32:07] "[31m[1mPOST /api/v1/auth/me HTTP/1.1[0m" 405 -
+127.0.0.1 - - [19/Jun/2024 16:32:14] "[32mPOST /api/v1/bookmarks HTTP/1.1[0m" 308 -
+127.0.0.1 - - [19/Jun/2024 16:32:15] "[35m[1mPOST /api/v1/bookmarks/ HTTP/1.1[0m" 500 -
+ * Detected change in 'C:\\Users\\user\\Desktop\\Test\\flaskProjectWIthYouTube\\src\\bookmarks.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 525-046-282
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 525-046-282
+127.0.0.1 - - [19/Jun/2024 16:32:55] "[32mPOST /api/v1/bookmarks HTTP/1.1[0m" 308 -
+127.0.0.1 - - [19/Jun/2024 16:32:55] "[31m[1mPOST /api/v1/bookmarks/ HTTP/1.1[0m" 409 -
+127.0.0.1 - - [19/Jun/2024 16:33:04] "[32mPOST /api/v1/bookmarks HTTP/1.1[0m" 308 -
+127.0.0.1 - - [19/Jun/2024 16:33:04] "[35m[1mPOST /api/v1/bookmarks/ HTTP/1.1[0m" 201 -
+127.0.0.1 - - [19/Jun/2024 16:33:14] "[32mGET /api/v1/bookmarks HTTP/1.1[0m" 308 -
+127.0.0.1 - - [19/Jun/2024 16:33:14] "GET /api/v1/bookmarks/ HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\user\\Desktop\\Test\\flaskProjectWIthYouTube\\src\\bookmarks.py', reloading
+ * Restarting with stat
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 525-046-282
+ * Detected change in 'C:\\Users\\user\\Desktop\\Test\\flaskProjectWIthYouTube\\src\\bookmarks.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 525-046-282
+ * Detected change in 'C:\\Users\\user\\Desktop\\Test\\flaskProjectWIthYouTube\\src\\bookmarks.py', reloading
+ * Restarting with stat
+ * Restarting with stat
+ * Restarting with stat
+ * Restarting with stat
+ * Restarting with stat
+ * Restarting with stat
+ * Restarting with stat
+ * Restarting with stat
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 525-046-282
+ * Detected change in 'C:\\Users\\user\\Desktop\\Test\\flaskProjectWIthYouTube\\src\\bookmarks.py', reloading
+ * Restarting with stat
+ * Restarting with stat
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 525-046-282
+127.0.0.1 - - [19/Jun/2024 20:31:43] "[32mGET /api/v1/bookmarks HTTP/1.1[0m" 308 -
+127.0.0.1 - - [19/Jun/2024 20:31:43] "[31m[1mGET /api/v1/bookmarks/ HTTP/1.1[0m" 401 -
+127.0.0.1 - - [19/Jun/2024 20:31:48] "POST /api/v1/auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [19/Jun/2024 20:31:59] "[32mGET /api/v1/bookmarks HTTP/1.1[0m" 308 -
+127.0.0.1 - - [19/Jun/2024 20:31:59] "[35m[1mGET /api/v1/bookmarks/ HTTP/1.1[0m" 500 -
+ * Detected change in 'C:\\Users\\user\\Desktop\\Test\\flaskProjectWIthYouTube\\src\\bookmarks.py', reloading
+ * Restarting with stat
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 525-046-282
+127.0.0.1 - - [19/Jun/2024 20:32:42] "[32mGET /api/v1/bookmarks HTTP/1.1[0m" 308 -
+127.0.0.1 - - [19/Jun/2024 20:32:42] "GET /api/v1/bookmarks/ HTTP/1.1" 200 -
+127.0.0.1 - - [19/Jun/2024 20:33:38] "[32mPOST /api/v1/bookmarks HTTP/1.1[0m" 308 -
+127.0.0.1 - - [19/Jun/2024 20:33:38] "[35m[1mPOST /api/v1/bookmarks/ HTTP/1.1[0m" 201 -
+127.0.0.1 - - [19/Jun/2024 20:33:43] "[32mPOST /api/v1/bookmarks HTTP/1.1[0m" 308 -
+127.0.0.1 - - [19/Jun/2024 20:33:43] "[35m[1mPOST /api/v1/bookmarks/ HTTP/1.1[0m" 201 -
+127.0.0.1 - - [19/Jun/2024 20:33:46] "[32mPOST /api/v1/bookmarks HTTP/1.1[0m" 308 -
+127.0.0.1 - - [19/Jun/2024 20:33:46] "[35m[1mPOST /api/v1/bookmarks/ HTTP/1.1[0m" 201 -
+127.0.0.1 - - [19/Jun/2024 20:33:48] "[32mPOST /api/v1/bookmarks HTTP/1.1[0m" 308 -
+127.0.0.1 - - [19/Jun/2024 20:33:48] "[35m[1mPOST /api/v1/bookmarks/ HTTP/1.1[0m" 201 -
+127.0.0.1 - - [19/Jun/2024 20:33:53] "[32mGET /api/v1/bookmarks HTTP/1.1[0m" 308 -
+127.0.0.1 - - [19/Jun/2024 20:33:53] "GET /api/v1/bookmarks/ HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\user\\Desktop\\Test\\flaskProjectWIthYouTube\\src\\bookmarks.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 525-046-282
+127.0.0.1 - - [19/Jun/2024 20:36:15] "[32mGET /api/v1/bookmarks?page=2 HTTP/1.1[0m" 308 -
+127.0.0.1 - - [19/Jun/2024 20:36:15] "GET /api/v1/bookmarks/?page=2 HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\user\\Desktop\\Test\\flaskProjectWIthYouTube\\src\\bookmarks.py', reloading
+ * Restarting with stat
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 525-046-282
+ * Detected change in 'C:\\Users\\user\\Desktop\\Test\\flaskProjectWIthYouTube\\src\\bookmarks.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 525-046-282
+ * Detected change in 'C:\\Users\\user\\Desktop\\Test\\flaskProjectWIthYouTube\\src\\bookmarks.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 525-046-282
+ * Detected change in 'C:\\Users\\user\\Desktop\\Test\\flaskProjectWIthYouTube\\src\\bookmarks.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 525-046-282
+ * Detected change in 'C:\\Users\\user\\Desktop\\Test\\flaskProjectWIthYouTube\\src\\bookmarks.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 525-046-282
+ * Detected change in 'C:\\Users\\user\\Desktop\\Test\\flaskProjectWIthYouTube\\src\\bookmarks.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 525-046-282
+ * Detected change in 'C:\\Users\\user\\Desktop\\Test\\flaskProjectWIthYouTube\\src\\bookmarks.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 525-046-282
+ * Detected change in 'C:\\Users\\user\\Desktop\\Test\\flaskProjectWIthYouTube\\src\\bookmarks.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 525-046-282
+ * Detected change in 'C:\\Users\\user\\Desktop\\Test\\flaskProjectWIthYouTube\\src\\bookmarks.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 525-046-282
+ * Detected change in 'C:\\Users\\user\\Desktop\\Test\\flaskProjectWIthYouTube\\src\\bookmarks.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 525-046-282
+ * Detected change in 'C:\\Users\\user\\Desktop\\Test\\flaskProjectWIthYouTube\\src\\bookmarks.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 525-046-282
+ * Detected change in 'C:\\Users\\user\\Desktop\\Test\\flaskProjectWIthYouTube\\src\\bookmarks.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 525-046-282
+ * Detected change in 'C:\\Users\\user\\Desktop\\Test\\flaskProjectWIthYouTube\\src\\bookmarks.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 525-046-282
+ * Detected change in 'C:\\Users\\user\\Desktop\\Test\\flaskProjectWIthYouTube\\src\\bookmarks.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 525-046-282
+ * Detected change in 'C:\\Users\\user\\Desktop\\Test\\flaskProjectWIthYouTube\\src\\bookmarks.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 525-046-282
+ * Detected change in 'C:\\Users\\user\\Desktop\\Test\\flaskProjectWIthYouTube\\src\\bookmarks.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 525-046-282
+127.0.0.1 - - [19/Jun/2024 23:11:30] "[31m[1mGET /api/v1/bookmarks/2 HTTP/1.1[0m" 401 -
+127.0.0.1 - - [19/Jun/2024 23:11:36] "POST /api/v1/auth/login HTTP/1.1" 200 -
+127.0.0.1 - - [19/Jun/2024 23:11:46] "[35m[1mGET /api/v1/bookmarks/2 HTTP/1.1[0m" 500 -
+ * Detected change in 'C:\\Users\\user\\Desktop\\Test\\flaskProjectWIthYouTube\\src\\bookmarks.py', reloading
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 525-046-282
+127.0.0.1 - - [19/Jun/2024 23:23:05] "[35m[1mGET /api/v1/bookmarks/2 HTTP/1.1[0m" 500 -
+ * Detected change in 'C:\\Users\\user\\Desktop\\Test\\flaskProjectWIthYouTube\\src\\bookmarks.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 525-046-282
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 525-046-282
+127.0.0.1 - - [19/Jun/2024 23:24:10] "GET /api/v1/bookmarks/2 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Jun/2024 23:24:15] "GET /api/v1/bookmarks/5 HTTP/1.1" 200 -
+127.0.0.1 - - [19/Jun/2024 23:24:46] "[31m[1mPUT /api/v1/bookmarks/5 HTTP/1.1[0m" 405 -
+127.0.0.1 - - [19/Jun/2024 23:25:01] "PUT /api/v1/bookmarks/5/edit HTTP/1.1" 200 -
+ * Detected change in 'C:\\Users\\user\\Desktop\\Test\\flaskProjectWIthYouTube\\src\\bookmarks.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 525-046-282
