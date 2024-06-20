@@ -266,3 +266,134 @@
  * Restarting with stat
  * Debugger is active!
  * Debugger PIN: 525-046-282
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 525-046-282
+127.0.0.1 - - [20/Jun/2024 12:30:48] "[33mGET /api/v1 HTTP/1.1[0m" 404 -
+127.0.0.1 - - [20/Jun/2024 12:30:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+127.0.0.1 - - [20/Jun/2024 12:30:59] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [20/Jun/2024 12:30:59] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [20/Jun/2024 12:30:59] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+127.0.0.1 - - [20/Jun/2024 12:30:59] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 -
+127.0.0.1 - - [20/Jun/2024 12:30:59] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 -
+127.0.0.1 - - [20/Jun/2024 12:31:00] "GET /apispec.json HTTP/1.1" 200 -
+127.0.0.1 - - [20/Jun/2024 12:31:00] "GET /flasgger_static/favicon-32x32.png HTTP/1.1" 200 -
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 525-046-282
+127.0.0.1 - - [20/Jun/2024 12:35:31] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [20/Jun/2024 12:35:31] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [20/Jun/2024 12:35:31] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [20/Jun/2024 12:35:31] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [20/Jun/2024 12:35:31] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+jsonify failure; defaulting to json.dumps
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\Test\flaskProjectWIthYouTube\.venv\Lib\site-packages\flasgger\utils.py", line 581, in load_from_file
+    enc = detect_by_bom(swag_path)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\Test\flaskProjectWIthYouTube\.venv\Lib\site-packages\flasgger\utils.py", line 616, in detect_by_bom
+    with open(path, 'rb') as f:
+         ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\user\\Desktop\\Test\\flaskProjectWIthYouTube\\src\\.docs/auth/login.yaml'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\Test\flaskProjectWIthYouTube\.venv\Lib\site-packages\flasgger\utils.py", line 590, in load_from_file
+    enc = detect_by_bom(swag_path)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\Test\flaskProjectWIthYouTube\.venv\Lib\site-packages\flasgger\utils.py", line 616, in detect_by_bom
+    with open(path, 'rb') as f:
+         ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\user\\Desktop\\Test\\flaskProjectWIthYouTube\\src\\.docs/auth/login.yaml'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\Test\flaskProjectWIthYouTube\.venv\Lib\site-packages\flasgger\base.py", line 164, in get
+    return jsonify(self.loader())
+                   ^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\Test\flaskProjectWIthYouTube\.venv\Lib\site-packages\flasgger\base.py", line 438, in get_apispecs
+    specs = get_specs(
+            ^^^^^^^^^^
+  File "C:\Users\user\Desktop\Test\flaskProjectWIthYouTube\.venv\Lib\site-packages\flasgger\utils.py", line 180, in get_specs
+    doc_summary, doc_description, doc_swag = parse_docstring(
+                                             ^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\Test\flaskProjectWIthYouTube\.venv\Lib\site-packages\flasgger\utils.py", line 641, in parse_docstring
+    full_doc = load_from_file(swag_path, swag_type)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\Test\flaskProjectWIthYouTube\.venv\Lib\site-packages\flasgger\utils.py", line 604, in load_from_file
+    if package_spec.has_location:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'has_location'
+127.0.0.1 - - [20/Jun/2024 12:35:31] "[36mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [20/Jun/2024 12:35:31] "[35m[1mGET /apispec.json HTTP/1.1[0m" 500 -
+127.0.0.1 - - [20/Jun/2024 12:35:36] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [20/Jun/2024 12:35:36] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [20/Jun/2024 12:35:36] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [20/Jun/2024 12:35:36] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [20/Jun/2024 12:35:36] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+jsonify failure; defaulting to json.dumps
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\Test\flaskProjectWIthYouTube\.venv\Lib\site-packages\flasgger\utils.py", line 581, in load_from_file
+    enc = detect_by_bom(swag_path)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\Test\flaskProjectWIthYouTube\.venv\Lib\site-packages\flasgger\utils.py", line 616, in detect_by_bom
+    with open(path, 'rb') as f:
+         ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\user\\Desktop\\Test\\flaskProjectWIthYouTube\\src\\.docs/auth/login.yaml'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\Test\flaskProjectWIthYouTube\.venv\Lib\site-packages\flasgger\utils.py", line 590, in load_from_file
+    enc = detect_by_bom(swag_path)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\Test\flaskProjectWIthYouTube\.venv\Lib\site-packages\flasgger\utils.py", line 616, in detect_by_bom
+    with open(path, 'rb') as f:
+         ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\user\\Desktop\\Test\\flaskProjectWIthYouTube\\src\\.docs/auth/login.yaml'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\Test\flaskProjectWIthYouTube\.venv\Lib\site-packages\flasgger\base.py", line 164, in get
+    return jsonify(self.loader())
+                   ^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\Test\flaskProjectWIthYouTube\.venv\Lib\site-packages\flasgger\base.py", line 438, in get_apispecs
+    specs = get_specs(
+            ^^^^^^^^^^
+  File "C:\Users\user\Desktop\Test\flaskProjectWIthYouTube\.venv\Lib\site-packages\flasgger\utils.py", line 180, in get_specs
+    doc_summary, doc_description, doc_swag = parse_docstring(
+                                             ^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\Test\flaskProjectWIthYouTube\.venv\Lib\site-packages\flasgger\utils.py", line 641, in parse_docstring
+    full_doc = load_from_file(swag_path, swag_type)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\Test\flaskProjectWIthYouTube\.venv\Lib\site-packages\flasgger\utils.py", line 604, in load_from_file
+    if package_spec.has_location:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'has_location'
+127.0.0.1 - - [20/Jun/2024 12:35:37] "[35m[1mGET /apispec.json HTTP/1.1[0m" 500 -
+ * Detected change in 'C:\\Users\\user\\Desktop\\Test\\flaskProjectWIthYouTube\\src\\auth.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 525-046-282
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 525-046-282
+127.0.0.1 - - [20/Jun/2024 12:37:10] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [20/Jun/2024 12:37:10] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [20/Jun/2024 12:37:10] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+127.0.0.1 - - [20/Jun/2024 12:37:10] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [20/Jun/2024 12:37:10] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [20/Jun/2024 12:37:11] "[36mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [20/Jun/2024 12:37:11] "GET /apispec.json HTTP/1.1" 200 -

@@ -140,3 +140,8 @@ def delete_bookmark(id):
     db.session.delete(bookmark)
     db.session.commit()
     return jsonify({'message': 'Deleted'}), HTTP_204_NO_CONTENT
+
+
+# @bookmarks.get('/short_url')
+# def get_bookmarks():
+#     return pass

@@ -9,11 +9,13 @@ from src.constants.http_status_codes import (HTTP_400_BAD_REQUEST,
 import validators
 from flask_jwt_extended import create_access_token, create_refresh_token
 from flask_jwt_extended import jwt_required, get_jwt_identity
+from flasgger import swag_from
 
 auth = Blueprint('auth', __name__, url_prefix='/api/v1/auth')
 
 
 @auth.post('/register')
+@swag_from('./docs/auth/register.yaml')
 def register():
     username = request.json['username']
     email = request.json['email']
@@ -51,6 +53,7 @@ def register():
 
 
 @auth.post('/login')
+@swag_from('./docs/auth/login.yaml')
 def login():
     email = request.json['email']
     password = request.json['password']
